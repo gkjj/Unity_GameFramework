@@ -2,9 +2,7 @@
 // Description:
 // ------------------------------------------
 
-using System;
-
-namespace GameFramework.Generic
+namespace GameFramework.Utility
 {
     ///<summary>
     /// Singleton
