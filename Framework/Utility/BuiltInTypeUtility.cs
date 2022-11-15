@@ -21,4 +21,18 @@ namespace GameFramework.Utility
 		}
 
 	}
+		/// <summary>
+		/// 判断字典不为null，key不为null，且字典中有key
+		/// </summary>
+		/// <param name="dictionary">被判断的字典</param>
+		/// <param name="key">查找字典的key</param>
+		/// <typeparam name="TKey"></typeparam>
+		/// <typeparam name="TValue"></typeparam>
+		/// <returns></returns>
+		public static bool CanUseDictionaryWithKey<TKey,TValue>(this IDictionary<TKey,TValue> dictionary,TKey key)
+		{
+			if (dictionary != null && key != null && dictionary.ContainsKey(key))
+				return true;
+			return false;
+		}
 }
