@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 
 namespace GameFramework.Utility
 {
@@ -20,7 +21,6 @@ namespace GameFramework.Utility
 			return false;
 		}
 
-	}
 		/// <summary>
 		/// 判断字典不为null，key不为null，且字典中有key
 		/// </summary>
@@ -35,4 +35,6 @@ namespace GameFramework.Utility
 				return true;
 			return false;
 		}
+	}
+
 }
