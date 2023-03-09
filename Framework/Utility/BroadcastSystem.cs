@@ -1,4 +1,4 @@
-namespace Utility
+namespace GameFramework.Utility
 {
 	public struct BroadcastInfo
 	{
