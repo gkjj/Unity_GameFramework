@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace GameFramework.Utility
 {
 	public struct BroadcastInfo
